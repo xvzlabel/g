@@ -13,7 +13,6 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("pesel", pesel.value)
     params.set("urodzin", urodzin.value)
     
-     location.href = "http://localhost:8000/id.html?" + params;
-
+     location.href = "id.html?" + params;
 
 });
