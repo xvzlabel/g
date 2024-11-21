@@ -13,5 +13,5 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("pesel", pesel.value)
     params.set("urodzin", urodzin.value)
     
-    location.href = "C:\\Users\\jakub\\Desktop\\yObywatel-main\\id.html?" + params;
+     location.href = "/yObywatel/id?" + params;
 });
